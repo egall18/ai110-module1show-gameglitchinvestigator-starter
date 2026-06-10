@@ -79,6 +79,17 @@ If your guess is too low, it tells you to go higher.
 # pytest tests/
 # ========================= X passed in 0.XXs =========================
 ```
+============================================== test session starts ==============================================
+platform darwin -- Python 3.13.13, pytest-9.0.3, pluggy-1.6.0
+rootdir: /Users/batman/Desktop/codepathAI/ai110-module1show-gameglitchinvestigator-starter
+plugins: anyio-4.13.0
+collected 15 items                                                                                              
+
+tests/test_game_logic.py ...                                                                              [ 20%]
+tests/test_logic_utils_additional.py ..........                                                           [ 86%]
+tests/test_new_game_state.py ..                                                                           [100%]
+
+============================================== 15 passed in 0.05s ===============================================
 
 ## 🚀 Stretch Features
 
